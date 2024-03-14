@@ -91,3 +91,11 @@ p {
     text-align: center;
   }
 }
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: var(--branding-color);
+}
