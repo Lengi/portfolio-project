@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ellen is a front-end engineer based in Sweden. On this page you get to look at some of her work."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,20 +29,22 @@
       src="https://kit.fontawesome.com/e266dc5acf.js"
       crossorigin="anonymous"
     ></script>
-    <title>My work</title>
+    <title>Ellen's work</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"
+        <a href="/" title="Homepage"
           ><h3 class="d-none d-md-block">Ellen G-O</h3>
           <h3 class="d-block d-md-none">EGO</h3></a
         >
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/work.html">Work</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/work.html" title="Ellen's work">Work</a>
+          </li>
+          <li><a href="/about.html" title="About Ellen">About</a></li>
+          <li><a href="/contact.html" title="Contact Ellen">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,26 +53,89 @@
         <h1 class="mb-4">Take a look on what I've been working on!</h1>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <img src="pictures/weather.png" class="img-fluid mb-3" alt="" />
-            <h3 class="m-1">Weather Project</h3>
+            <img
+              src="pictures/weather.png"
+              class="img-fluid mb-3"
+              alt="Weather Project image"
+            />
+            <h3 class="m-1">
+              <a href="https://lengi-weather.netlify.app/" class="work-links"
+                >Weather Project</a
+              >
+            </h3>
             <p class="text-muted">Built with HTML,CSS and JavaScript</p>
           </div>
           <div class="col-md-4 mb-4">
-            <img src="pictures/world-clock.png" class="img-fluid mb-3" alt="" />
-            <h3 class="m-1">World Clock Project</h3>
+            <img
+              src="pictures/world-clock.png"
+              class="img-fluid mb-3"
+              alt="World Clock Project image"
+            />
+            <h3 class="m-1">
+              <a href="https://ego-world-clock.netlify.app/" class="work-links"
+                >World Clock Project</a
+              >
+            </h3>
             <p class="text-muted">Built with HTML,CSS and JavaScript</p>
           </div>
           <div class="col-md-4 mb-4">
             <img
               src="pictures/poem-generator.png"
               class="img-fluid mb-3"
-              alt=""
+              alt="Poem Generator Project image"
             />
-            <h3 class="m-1">Poem Generator Project</h3>
+            <h3 class="m-1">
+              <a
+                href="https://ego-ai-poem-generator.netlify.app/"
+                class="work-links"
+                >Poem Generator Project</a
+              >
+            </h3>
             <p class="text-muted">Built with HTML,CSS and JavaScript</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:ellengiangohlin@gmail.com" class="email-link"
+            >ellengiangohlin@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/ellengiang/"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ellen-giang-olin-41286a263/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Lengi" target="_blank" title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Ellen Giang Ohlin, and it is
+          <a href="https://github.com/Lengi/portfolio-project" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

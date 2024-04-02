@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ellen is a front-end engineer based in Sweden. On this page you get to look at some of her work."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,20 +29,20 @@
       src="https://kit.fontawesome.com/e266dc5acf.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Front-end Developer - Ellen Giang Ohlin</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/"
+        <a href="/" title="Homepage"
           ><h3 class="d-none d-md-block">Ellen G-O</h3>
           <h3 class="d-block d-md-none">EGO</h3></a
         >
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/work.html" title="Ellen's work">Work</a></li>
+          <li><a href="/about.html" title="About Ellen">About</a></li>
+          <li><a href="/contact.html" title="Contact Ellen">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -55,20 +59,19 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="pictures/weather.png" class="img-fluid" alt="" />
+          <img
+            src="pictures/weather.png"
+            class="img-fluid"
+            alt="Weather App Project Preview"
+          />
         </div>
         <div class="col">
           <h2 class="mb-5">Weather App Project</h2>
           <p class="mb-5 text-muted">
-            Cookin' up a storm, piece of cake. Spittin' out that fire, feel the
-            blaze. Taking over, we don't play by the rules. If you wanna feel
-            alive, say the name. Bellowin' speakers, mic pop filter. Bass be
-            kickin' harder, got your head off-kilter. Keep your dirty hands off
-            me. I'ma show you, just wait and see. Dominate everything, we are
-            the ultimate gang. Fresh taste, fresh scent, fresh shape, fresh
-            everything. Came for a bite, now you're so addicted, yeah, thank
-            you, come again. Everything you craving, yeah, it's all me.
-            Everything invented, that was all me, yeah.
+            I built this weather app with HTML, CSS & JavaScript. The app pulls
+            data from an API to show the user the current weather status &
+            degrees(C°), and the forecast of the few upcoming days of the city
+            that was submited by the user in the search bar.
           </p>
           <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
         </div>
@@ -77,38 +80,35 @@
         <div class="col">
           <h2 class="mb-5">World Clock Project</h2>
           <p class="mb-5 text-muted">
-            Cookin' up a storm, piece of cake. Spittin' out that fire, feel the
-            blaze. Taking over, we don't play by the rules. If you wanna feel
-            alive, say the name. Bellowin' speakers, mic pop filter. Bass be
-            kickin' harder, got your head off-kilter. Keep your dirty hands off
-            me. I'ma show you, just wait and see. Dominate everything, we are
-            the ultimate gang. Fresh taste, fresh scent, fresh shape, fresh
-            everything. Came for a bite, now you're so addicted, yeah, thank
-            you, come again. Everything you craving, yeah, it's all me.
-            Everything invented, that was all me, yeah.
+            I built this world clock app with HTML, CSS & JavaScript. This app
+            pulls data from an API which will then provide the user the time &
+            date of the city the user searched for in the search bar.
           </p>
           <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="pictures/world-clock.png" class="img-fluid" alt="" />
+          <img
+            src="pictures/world-clock.png"
+            class="img-fluid"
+            alt="World Clock Project Preview"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="pictures/poem-generator.png" class="img-fluid" alt="" />
+          <img
+            src="pictures/poem-generator.png"
+            class="img-fluid"
+            alt="Poem Generator Project Preview"
+          />
         </div>
         <div class="col">
           <h2 class="mb-5">Poem Generator Project</h2>
           <p class="mb-5 text-muted">
-            Cookin' up a storm, piece of cake. Spittin' out that fire, feel the
-            blaze. Taking over, we don't play by the rules. If you wanna feel
-            alive, say the name. Bellowin' speakers, mic pop filter. Bass be
-            kickin' harder, got your head off-kilter. Keep your dirty hands off
-            me. I'ma show you, just wait and see. Dominate everything, we are
-            the ultimate gang. Fresh taste, fresh scent, fresh shape, fresh
-            everything. Came for a bite, now you're so addicted, yeah, thank
-            you, come again. Everything you craving, yeah, it's all me.
-            Everything invented, that was all me, yeah.
+            I built this poem generator app with HTML, CSS & JavaScript. When
+            the user submits a word(and it can be any word) into the search bar,
+            the AI peom generator will provide a poem that is about the word the
+            user submited for.
           </p>
           <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
         </div>
@@ -118,7 +118,7 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
@@ -131,18 +131,28 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/ellengiang/" target="_blank"
+          <a
+            href="https://www.instagram.com/ellengiang/"
+            target="_blank"
+            title="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/ellen-giang-olin-41286a263/"
             target="_blank"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/Lengi" target="_blank"
+          <a href="https://github.com/Lengi" target="_blank" title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Ellen Giang Ohlin, and it is
+          <a href="https://github.com/Lengi/portfolio-project" target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
